@@ -29,18 +29,18 @@ namespace SimpleQuizApplication
                     "Great Balls of Fire"));
             //ADD MORE EXAMPLE QUESTIONS HERE
             
-            myQuestions.Add(new ShortAnswerQuestion(
+       /*     myQuestions.Add(new ShortAnswerQuestion(
                     "What is the Minnesota state bird?",
                     "Loon"));
             myQuestions.Add(new TrueFalseQuestion(
                    "St. Scholatsica is over 100 years old",
                    "True"));
-        /*    String[] possibleAnswers = { "Dave Vosen", "Jen Rosato", "Tom Buck", "Tom Gibbons" };
-            myQuestions.add(new MultipleChoiceQuestion(
+        */    String[] possibleAnswers = { "Dave Vosen", "Jen Rosato", "Tom Buck", "Tom Gibbons" };
+            myQuestions.Add(new SimpleQuizApp.MultipleChoiceQuestion(
                     "Which faculty member owns a number of bee hives?",
                     possibleAnswers,
                     2));
-            */
+            
 
             //Shuffle the questions and set the starting one to zero
             // Collections.shuffle(myQuestions);            // C# does not have a clear shuffle option
