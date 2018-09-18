@@ -28,14 +28,14 @@ namespace SimpleQuizApplication
                     "What is the name of Jerry Lee Lewis's biggest solid gold hit?",
                     "Great Balls of Fire"));
             //ADD MORE EXAMPLE QUESTIONS HERE
-            /*
-            myQuestions.add(new ShortAnswerQuestion(
+            
+            myQuestions.Add(new ShortAnswerQuestion(
                     "What is the Minnesota state bird?",
                     "Loon"));
-            myQuestions.add(new TrueFalseQuestion(
+            myQuestions.Add(new TrueFalseQuestion(
                    "St. Scholatsica is over 100 years old",
                    "True"));
-            String[] possibleAnswers = { "Dave Vosen", "Jen Rosato", "Tom Buck", "Tom Gibbons" };
+        /*    String[] possibleAnswers = { "Dave Vosen", "Jen Rosato", "Tom Buck", "Tom Gibbons" };
             myQuestions.add(new MultipleChoiceQuestion(
                     "Which faculty member owns a number of bee hives?",
                     possibleAnswers,
